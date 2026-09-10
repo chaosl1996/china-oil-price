@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "China Oil Price",
+        "description": "Select the region to track. Data source: [qiyoujiage.com](https://www.qiyoujiage.com)",
+        "data": {
+          "region": "Region",
+          "name": "Device name (leave empty to use the region name)"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This region is already configured. Add another region from the integrations page."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "China Oil Price options",
+        "data": {
+          "scan_interval": "Update interval"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "gasoline_92": {
+        "name": "92# Gasoline"
+      },
+      "gasoline_95": {
+        "name": "95# Gasoline"
+      },
+      "gasoline_98": {
+        "name": "98# Gasoline"
+      },
+      "diesel_0": {
+        "name": "0# Diesel"
+      },
+      "next_adjustment": {
+        "name": "Next price adjustment"
+      }
+    }
+  }
+}

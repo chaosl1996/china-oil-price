@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "中国油价",
+        "description": "选择要查询油价的地区，数据来源：[汽油价格网](https://www.qiyoujiage.com)",
+        "data": {
+          "region": "地区",
+          "name": "设备名称（留空则自动命名为“地区名 + 油价”）"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "该地区已配置，可在集成页面添加其他地区。"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "中国油价选项",
+        "data": {
+          "scan_interval": "数据刷新间隔"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "gasoline_92": {
+        "name": "92号汽油"
+      },
+      "gasoline_95": {
+        "name": "95号汽油"
+      },
+      "gasoline_98": {
+        "name": "98号汽油"
+      },
+      "diesel_0": {
+        "name": "0号柴油"
+      },
+      "next_adjustment": {
+        "name": "下次调价时间"
+      }
+    }
+  }
+}

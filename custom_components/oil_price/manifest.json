@@ -1,0 +1,12 @@
+{
+  "domain": "oil_price",
+  "name": "China Oil Price",
+  "codeowners": ["@chaosl1996"],
+  "config_flow": true,
+  "documentation": "https://github.com/chaosl1996/china-oil-price",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/chaosl1996/china-oil-price/issues",
+  "requirements": [],
+  "version": "2.1.0"
+}
