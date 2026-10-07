@@ -122,3 +122,17 @@ automation:
 [MIT](LICENSE)
 
 Logo「宝石花」版权归中国石油天然气集团有限公司所有，本仓库仅将其用作油价数据来源的标识，与中国石油天然气集团有限公司无隶属或合作关系，如有侵权请联系删除。
+
+---
+
+<!-- DONATE:START -->
+## ☕ 请作者喝杯咖啡
+
+如果这些项目对你有帮助，欢迎请我喝一杯咖啡，或顺手点个 Star 支持一下～
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/chaosl1996/ha-share@main/docs/donate.png" alt="微信 / 支付宝赞赏码" width="240">
+</p>
+
+> 你的每一份支持，都是我继续维护开源项目的动力 ❤️
+<!-- DONATE:END -->
